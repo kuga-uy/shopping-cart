@@ -13,10 +13,16 @@
 
 .cart-item {
   display: grid;
-  grid-template-columns: 30% 20% 5% 25% 20%;
+  grid-template-columns: 30% 20% 25% 20%;
   grid-gap: 3px;
   background-color: azure;
   padding: 10px;
   justify-content: center;
   align-items: center;
+}
+
+.addItem,
+.restItem {
+  margin-left: 10px;
+  margin-right: 10px;
 }
