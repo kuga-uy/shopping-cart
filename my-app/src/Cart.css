@@ -1,0 +1,22 @@
+.cart-container {
+  width: 50%;
+  height: 500px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.cart-item-container {
+  width: 90%;
+  display: grid;
+}
+
+.cart-item {
+  display: grid;
+  grid-template-columns: 30% 20% 5% 25% 20%;
+  grid-gap: 3px;
+  background-color: azure;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
